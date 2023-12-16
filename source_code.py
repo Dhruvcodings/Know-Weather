@@ -4,7 +4,7 @@ import requests
 
 def data_get():
     city=city_name.get()
-    data=requests.get("https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=c964b35e913021701d140445c0294e9c").json()
+    data=requests.get("https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=authentication_key").json()
     w_climate1.config(text=data["weather"][0]["main"])
     w_desc1.config(text=data["weather"][0]["description"])
     w_temp1.config(text=str(data["main"]["temp"]-273.15))
