@@ -1,4 +1,1 @@
-Weather Prediction App.
-Uses Weather API.
-Pre-requisite is to install modules like Tkinter and requests.
-Having API authentication key.
+A simple graphical user interface (GUI) application that displays the current weather of a selected city using the OpenWeatherMap API. The application is built using Python's tkinter library for the GUI and requests for handling API calls
